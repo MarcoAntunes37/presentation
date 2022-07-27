@@ -1,0 +1,15 @@
+.approach-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.approach-item {
+    margin: 1em;
+    padding: 1em;
+}
+
+.approach-item > p {
+    padding: 0.2em;
+}

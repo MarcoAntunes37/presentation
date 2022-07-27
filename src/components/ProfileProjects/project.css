@@ -1,0 +1,15 @@
+.project-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.project-item {
+    margin: 0 1em 0 1em;
+    padding: 1em;
+}
+
+.project-item > p {
+    padding: 0.2em;
+}

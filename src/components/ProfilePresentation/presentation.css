@@ -1,0 +1,31 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.presentation-container{
+   margin-right: 2em;
+}
+
+.presentation-item-container{
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-item{
+    padding: 1em
+}
+
+
+@media only screen and (max-width: 1100px){
+    .profile-container{
+        display: block;
+        
+    }
+    .image-container{
+        width: 30%;        
+    }
+    .presentation-container{
+        margin: 0;
+     }
+}

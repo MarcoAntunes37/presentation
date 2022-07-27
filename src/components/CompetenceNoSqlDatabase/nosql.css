@@ -1,0 +1,14 @@
+.nosql-item-container{
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.nosql-item {
+    margin: 1em;
+    padding: 1em;
+}
+
+.nosql-item > p {
+    padding: 0.2em;
+}

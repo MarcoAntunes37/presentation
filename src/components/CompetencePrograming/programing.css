@@ -1,0 +1,15 @@
+.programing-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.programing-item {
+    margin: 1em;
+    padding: 1em;
+}
+
+.programing-item > p {
+    padding: 0.2em;
+}

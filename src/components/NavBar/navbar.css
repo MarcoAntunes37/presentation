@@ -1,0 +1,39 @@
+.navbar-container{
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+    padding: 1em;
+}
+
+.navbar-item {
+    flex-direction: column;
+}
+
+li{
+    display: inline;
+    margin-left: 1em;
+}
+.hamburguer{
+    display: none;
+}
+
+
+@media only screen and (max-width: 815px){
+    .navbar-container{      
+        
+    }    
+    .navbar-item{
+        display: none;
+        
+    }
+
+    .hamburguer{
+        display: flex;
+    }
+    
+    li{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}

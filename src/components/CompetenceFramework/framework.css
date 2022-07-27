@@ -1,0 +1,15 @@
+.framework-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.framework-item {
+    margin: 1em;
+    padding: 1em;
+}
+
+.framework-item > p {
+    padding: 0.2em;
+}

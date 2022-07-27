@@ -1,0 +1,32 @@
+.contact-item-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-item{
+    display: flex;
+    font-size: calc(10px + 1vmin);
+    justify-content: end;
+    flex-wrap: wrap;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item > p {
+    padding: 0.2em;
+}
+
+.item-whatsapp, .item-telephone, .item-email, .item-linkedin, .item-github{
+    margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 900px){
+    
+    .contact-item{
+        flex-direction: column;
+    }
+    .item-whatsapp, .item-telephone, .item-email, .item-linkedin, .item-github{
+        margin-right: 0;
+    }
+}
