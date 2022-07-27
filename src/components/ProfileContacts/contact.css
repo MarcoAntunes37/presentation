@@ -5,7 +5,7 @@
 .contact-item{
     display: flex;
     font-size: calc(10px + 1vmin);
-    justify-content: end;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 a:link, a:visited {

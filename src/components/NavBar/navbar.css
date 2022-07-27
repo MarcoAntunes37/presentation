@@ -1,6 +1,5 @@
 .navbar-container{
     flex-direction: column;
-    width: 100vw;
     background-color: black;
     padding: 1em;
 }
@@ -19,9 +18,7 @@ li{
 
 
 @media only screen and (max-width: 815px){
-    .navbar-container{      
-        
-    }    
+    
     .navbar-item{
         display: none;
         
