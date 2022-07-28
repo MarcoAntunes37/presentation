@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import PageData from '../../data/Page';
 import './graduation.css'
 
 function CompetenceFormation(props) {
@@ -17,7 +18,12 @@ function CompetenceFormation(props) {
             <div className='graduation-text grade'>{props.grade}</div>
           )
         }
-        <button className='grade-button' onClick={handleClick}>Mostrar Grade</button>
+        <button className='grade-button' onClick={handleClick}>
+          {
+            PageData[props.language]
+            .section[12]
+          }
+        </button>
         <p className='graduation-text'>{props.instituition}</p>
         <p className='graduation-text'>{props.completed}</p>
       </div>

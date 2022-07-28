@@ -1,10 +1,16 @@
 import React from 'react';
 import './project.css'
+import PageData from '../../data/Page';
 
-function ProfileProjects() {
+function ProfileProjects(props) {
   return (
     <div className='project-item'>
-        <p>Em construção</p>
+        <p>
+          {
+            PageData[props.language]
+              .section[10]
+          }
+        </p>
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import './language.css'
+import PageData from '../../data/Page';
 
 function CompetencesLanguage(props) {
-  return (
-    <div className='language-item'>
+  return (    
+    <div className='language-item'>      
         <p>{props.language}</p>
         <p>Leitura: {props.read}</p>
         <p>Escuta: {props.listen}</p>

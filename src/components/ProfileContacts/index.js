@@ -24,8 +24,7 @@ function ProfileContacts(props) {
         </p>
       </div>
       <div className='item-telephone'>
-        <p>
-          
+        <p>          
           <FontAwesomeIcon 
             icon={faPhone} 
           />

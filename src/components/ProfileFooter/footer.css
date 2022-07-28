@@ -1,25 +1,17 @@
 .footer-container{
     background-color: black;
-    color: white;    
-}
-.footer-item-container{
-    padding: 1.5em
-}
-.logo-container{
-    font-size: calc(10px + 1vmin);
     display: flex;
-    float: left;
-    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 1.5em;
+    font-size: calc(10px + 1vmin);
 }
 
 @media only screen and (max-width: 815px){
+    .footer-container{
+        display: block;
+        justify-content: center;
+}
     
-    .footer-item-container{
-        width: 100%;
-        padding: 1em;
-    }
-    .logo-container{
-        float:none;
-        margin: 1em;
-    }
+
 }
