@@ -13,7 +13,12 @@ const PageData = [
             'Projetos',
             'Em construção',
             'Desenvolvedor e Analista de Software',
-            'Mostrar Grade'
+            'Mostrar Grade',
+            'Confiança',
+            'Leitura',
+            'Escuta',
+            'Fala',
+            'Escrita'
         ],
         nav:[
             'Perfil',
@@ -21,7 +26,7 @@ const PageData = [
             'Idioma',
             'Habilidades',
             'Projetos',
-            'Contato'
+            'Contato'            
         ]
     },
     {
@@ -38,7 +43,12 @@ const PageData = [
             'Projects',
             'Under Construction',
             'Software Developer and Analyst',
-            'Show grade'
+            'Show grade',
+            'Confidence',
+            'Read',
+            'Listen',
+            'Speak',
+            'Writing'
         ],
         nav:[
             'Profile',

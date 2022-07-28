@@ -61,7 +61,7 @@ function ProfileCompetences(props) {
                         .map((item) => {
                             return (
                                 <CompetencesLanguage                
-                                language={
+                                name={
                                     item.name
                                 }
                                 read={
@@ -75,6 +75,9 @@ function ProfileCompetences(props) {
                                 }
                                 speak={
                                     item.speak
+                                }
+                                language={
+                                    props.language
                                 }
                                 />
                             )
@@ -121,6 +124,9 @@ function ProfileCompetences(props) {
                                 confidence={
                                     item.confidence
                                 }
+                                language={
+                                    props.language
+                                }
                                 />
                             )
                         })
@@ -149,7 +155,10 @@ function ProfileCompetences(props) {
                                 }
                                 confidence={
                                     item.confidence
-                                } 
+                                }
+                                language={
+                                    props.language
+                                }
                                 />
                             )
                         })
@@ -174,7 +183,10 @@ function ProfileCompetences(props) {
                                     item.name
                                 }
                                 confidence={
-                                item.confidence
+                                    item.confidence
+                                }
+                                language={
+                                    props.language
                                 }
                                 />
                             )
@@ -202,6 +214,9 @@ function ProfileCompetences(props) {
                                 confidence={
                                     item.confidence
                                 }
+                                language={
+                                    props.language
+                                }
                                 />
                             )
                         })
@@ -227,6 +242,9 @@ function ProfileCompetences(props) {
                                 }
                                 confidence={
                                     item.confidence
+                                }
+                                language={
+                                    props.language
                                 }
                                 />
                             )

@@ -8,28 +8,33 @@ import PageData from './data/Page';
 import ProfileData from './data/Profile'
 import ProfileFooter from './components/ProfileFooter'
 import NavBar from './components/NavBar';
+import BrFlag from './images/br.png'
+import UsFlag from './images/eua.png'
 import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
-  const [language, setLanguage] = useState(1)
+  const [language, setLanguage] = useState(0)
+  const [flag, setFlag]= useState(BrFlag)
 
-  function handleClick(){
-    if(language === 1){
-      setLanguage(0)
-    }
-    else{
+  function switchLanguage(){
+    if(language === 0){
       setLanguage(1)
+      setFlag(UsFlag)
     }
-  };
-
+    else if (language === 1){
+      setLanguage(0)
+      setFlag(BrFlag)
+    }
+  }
   return (
     <div className='App-header'>
       <div className='App'>
         <div className='app-content'>
           <NavBar
             language={language}
-          />
-          <LanguageSwitcher />
+            flag={flag}
+            function={switchLanguage}
+          />          
           <div className='profile-container' id='perfil'>
             <Image />
             <div className='presentation-container'>

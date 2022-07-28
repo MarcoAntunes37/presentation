@@ -1,4 +1,5 @@
 import React from 'react';
+import PageData from '../../data/Page';
 import './programing.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,7 +10,12 @@ function CompetencePrograming(props) {
           icon={props.icon}
         />
         <p>{props.name}</p>
-        <p>Confiança: {props.confidence}</p>
+        <p>
+          {
+            PageData[props.language]
+              .section[13]
+          }: {props.confidence}
+        </p>
     </div>
   )
 }

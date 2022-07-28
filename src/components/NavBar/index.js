@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageData from '../../data/Page';
+import LanguageSwitcher from '../LanguageSwitcher';
 import './navbar.css'
 
 
@@ -72,9 +73,16 @@ function NavBar(props) {
                     PageData[props.language]
                       .nav[5]
                   }
-                </a>  
+                </a>
               </li>
+                <LanguageSwitcher 
+                  language={props.language}
+                  flag={props.flag}
+                  function={props.function}
+                  
+                />
             </ul>
+            
         </div>
     </div>
   )

@@ -1,14 +1,13 @@
 import React from 'react';
-import BrFlag from '../../images/br.png'
-import UsFlag from '../../images/eua.png'
+import './language.css'
 
-// import { Container } from './styles';
-
-function LanguageSwitcher() {
+function LanguageSwitcher(props) {
   return (
-    <div className='language-switcher'>
-        <a href=''><img src={BrFlag}></img></a>
-    </div>
+    <li style={{float: 'right'}}>
+      <a href='#' onClick={props.function}>
+        <img class='language-switcher' src={props.flag}/>
+      </a>
+    </li>
   )
 }
 
