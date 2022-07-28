@@ -5,7 +5,6 @@ import PageData from '../../data/Page';
 function CompetencesLanguage(props) {
   return (    
     <div className='language-item'>
-      {console.log(props.language)}     
         <p>{props.name}</p>
         <p>
           {
